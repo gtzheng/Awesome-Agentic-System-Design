@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/agentic_system_design_banner.png" alt="Awesome Agentic System Design" width="100%">
+</p>
+
 # 🌟 Awesome Agentic System Design
 A curated collection of resources for **designing, evaluating, and deploying agentic AI systems**—covering architecture patterns, frameworks, safety considerations, and real-world applications.
 
