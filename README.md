@@ -18,6 +18,8 @@ This repository helps you stay ahead of the curve—bringing together the most u
 
 ## 📚 Resources
 
+### 🔹 Industry Guides & Whitepapers
+
 - **IBM x Anthropic** — [Architecting Secure Enterprise AI Agents with MCP](https://www.ibm.com/downloads/documents/us-en/1443d5dd174f42e6)  
   *Enterprise-focused blueprint for building secure AI agents using the Model Context Protocol (MCP).*
 
@@ -38,8 +40,30 @@ This repository helps you stay ahead of the curve—bringing together the most u
 
 - **MongoDB** — [7 Practical Design Patterns for Agentic Systems](https://www.mongodb.com/resources/basics/artificial-intelligence/agentic-systems?utm_source=chatgpt.com)  
   *Seven practical design patterns for agentic systems that have implemented in real-world use cases.*
+
+
+### 📚 Research Papers
+
+- [Weak-for-Strong: Training Weak Meta-Agent to Harness Strong Executors](https://arxiv.org/pdf/2504.04785)
+- [MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines](https://arxiv.org/abs/2507.22606)
+- [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762)
+- [FlowReasoner: Reinforcing Query-Level Meta-Agents](https://arxiv.org/abs/2504.15257)
   
----
+### 🤖 Agentic Frameworks
+
+- [Accenture AI Refinery SDK](https://sdk.airefinery.accenture.com/ai_refinery_101/)
+- [AG2: Open-Source AgentOS for AI Agents](https://github.com/ag2ai/ag2)
+- [Agent S: Use Computer Like a Human](https://github.com/ag2ai/ag2)
+- [AgentScope: Agent-Oriented Programming for Building LLM Applications](https://github.com/agentscope-ai/agentscope)
+- [AutoGen: A framework for building AI agents and applications](https://microsoft.github.io/autogen/stable//index.html)
+- [Claude Agent SDK](https://docs.claude.com/en/api/agent-sdk/overview)
+- [MetaGPT: The Multi-Agent Framework](https://github.com/FoundationAgents/MetaGPT)
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
+- [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/agents-sdk-overview?tabs=csharp)
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
+- [OpenAI Agent Builder](https://platform.openai.com/docs/guides/agent-builder)
+
+
 
 ## 🤝 Contributing
 Have a resource, paper, or framework that belongs here?  
