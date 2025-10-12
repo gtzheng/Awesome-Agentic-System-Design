@@ -26,6 +26,8 @@ This repository helps you stay ahead of the curve—bringing together the most u
 - **Google** — [AI Whitepaper: Agents](https://ppc.land/content/files/2025/01/Newwhitepaper_Agents2.pdf)  
   *Google’s vision on agent capabilities and their role in next-generation AI systems.*
 
+- **Antonio Gulli (Google)** - [Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview?ref=ppc.land&tab=t.0)
+
 - **Databricks** — [Agent System Design Patterns](https://docs.databricks.com/aws/en/generative-ai/guide/agent-system-design-patterns)  
   *Patterns for designing, orchestrating, and scaling agents in enterprise data/AI workflows.*
 
