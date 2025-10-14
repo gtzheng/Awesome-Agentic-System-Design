@@ -59,6 +59,7 @@ This repository helps you stay ahead of the curve—bringing together the most u
 - [AgentScope: Agent-Oriented Programming for Building LLM Applications](https://github.com/agentscope-ai/agentscope)
 - [AutoGen: A framework for building AI agents and applications](https://microsoft.github.io/autogen/stable//index.html)
 - [Claude Agent SDK](https://docs.claude.com/en/api/agent-sdk/overview)
+- [CrewAI: Fast and Flexible Multi-Agent Automation Framework](https://github.com/crewAIInc/crewAI)
 - [MetaGPT: The Multi-Agent Framework](https://github.com/FoundationAgents/MetaGPT)
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/agents-sdk-overview?tabs=csharp)
