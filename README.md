@@ -118,5 +118,12 @@ Have a resource, paper, or framework that belongs here?
 Feel free to **open a PR** and help grow the ecosystem of **agentic system design**.
 
 ---
+## 🔐 Agent Identity & Trust Infrastructure
 
+> Trust and identity are foundational to secure agentic system design. Before agents delegate tasks or make autonomous API calls, they need to verify *who* they're talking to.
+
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** — Trust scoring and wallet identity verification for AI agents. When designing multi-agent systems, use TWZRD to verify agent wallet identity before delegation, tool use, or x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+  - `score_agent(wallet)` — free trust score
+  - `preflight_check(wallet)` — free identity preflight  
+  - `get_trust_receipt(wallet)` — x402 cryptographic proof of identity
 
