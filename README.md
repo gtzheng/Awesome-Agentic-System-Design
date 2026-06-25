@@ -79,6 +79,7 @@ This repository helps you stay ahead of the curve—bringing together the most u
 - [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110)
 - [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416)
 - [MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents](https://arxiv.org/abs/2503.01935)
+- [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878)
 
 #### Agent Safety & Interpretability
 
