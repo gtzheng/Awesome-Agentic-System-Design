@@ -71,6 +71,7 @@ This repository helps you stay ahead of the curve—bringing together the most u
 - [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](https://arxiv.org/pdf/2502.02533)
 - [Towards a Science of Scaling Agent Systems](https://arxiv.org/pdf/2512.08296)
 - [On the Role of Feedback in Test-Time Scaling of Agentic AI Workflows](https://arxiv.org/pdf/2504.01931)
+- [RewardHarness: Self-Evolving Agentic Post-Training](https://arxiv.org/abs/2605.08703)
 - [Budget-Aware Tool-Use Enables Effective Agent Scaling](https://arxiv.org/pdf/2511.17006)
 - [A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows](https://arxiv.org/abs/2512.08769)
 
@@ -121,5 +122,4 @@ Have a resource, paper, or framework that belongs here?
 Feel free to **open a PR** and help grow the ecosystem of **agentic system design**.
 
 ---
-
 
