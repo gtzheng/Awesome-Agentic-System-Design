@@ -114,6 +114,7 @@ This repository helps you stay ahead of the curve—bringing together the most u
 - [SmolAgents: Code-Centric Agent Framework by Hugging Face](https://github.com/huggingface/smolagents)
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - [Strands Agents: AWS Open-Source Agent SDK](https://github.com/strands-agents/sdk-python)
+- [YYLO: Command-Line Orchestrator for Coding Agents](https://github.com/yylo-dev/yylo)
 
 
 
