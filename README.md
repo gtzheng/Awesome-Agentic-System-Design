@@ -60,6 +60,8 @@ This repository helps you stay ahead of the curve—bringing together the most u
 - [Agentic AI Frameworks: Architectures, Protocols, and Design Challenges](https://arxiv.org/abs/2508.10146)
 - [Agentic Design Patterns: A System-Theoretic Framework](https://arxiv.org/abs/2601.19752)
 - [Architectures for Building Agentic AI](https://arxiv.org/abs/2512.09458)
+- [LLM Agents: A Survey](https://www.preprints.org/manuscript/202608.0265/v1)
+- [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738)
 
 #### Agent Design & Optimization
 
