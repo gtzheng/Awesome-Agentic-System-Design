@@ -2,127 +2,72 @@
   <img src="assets/agentic_system_design_banner.png" alt="Awesome Agentic System Design" width="100%">
 </p>
 
-# 🌟 Awesome Agentic System Design
-A curated collection of resources for **designing, evaluating, and deploying agentic AI systems**—covering architecture patterns, frameworks, safety considerations, and real-world applications.
+# Awesome Agentic System Design
 
----
+A curated learning and reference hub for **designing, evaluating, and operating AI agents**. Coverage includes fundamentals, architectural tradeoffs, recent research, and system design interviews.
 
-## 📝 Motivation
-AI agents are quickly moving from research prototypes to **real-world applications**, and with that shift comes a new challenge: **agentic system design**.  
+## Learning paths
 
-Just as *machine learning system design* became a must-have skill for engineers and researchers, **agentic system design** is poised to be the next big area of demand. Companies are already looking for people who can reason about how agents should **plan, act, use tools, and collaborate in complex environments**.  
+| Focus | Path | Coverage |
+| --- | --- | --- |
+| Fundamentals | [Learning roadmap](docs/learning-roadmap.md) → [architecture](docs/architecture.md) → [context and memory](docs/context-and-memory.md) | Agent loops, state, tools, and information management |
+| Production systems | [Tools and protocols](docs/tools-and-protocols.md) → [evaluation](docs/evaluation.md) → [production and safety](docs/production-and-safety.md) | Recovery, permissions, budgets, and quality measurement |
+| Interview preparation | [Interview guide](docs/interview-preparation.md) → [worked case studies](docs/case-studies.md) | Design questions, quantitative reasoning, and architectural tradeoffs |
+| Recent developments | [Updates](UPDATES.md) → [research papers](resources/papers.md) | Releases, migration notes, and research findings |
+| Implementation tools | [Frameworks and platforms](resources/frameworks.md) | Control flow, deployment models, and operational capabilities |
 
-This repository helps you stay ahead of the curve—bringing together the most useful **resources, frameworks, and design patterns** to sharpen your skills for **future agentic system design interviews**.
+## What is agentic system design?
 
----
+An agentic system uses a model to choose actions, invoke tools, observe results, and adapt its next steps toward a goal. A **workflow** defines the control flow in code; an **agent loop** delegates some of those decisions to a model. Most useful applications combine both.
 
-## 📚 Resources
+System design covers the software around that loop: state, context, permissions, execution, evaluation, observability, and failure recovery. More agents, tools, or autonomy are design choices to justify with evidence.
 
-### 🔹 Industry Guides & Whitepapers
+```mermaid
+flowchart LR
+    U[User goal] --> H[Runtime and control flow]
+    H --> M[Model and selected context]
+    M --> P[Validate action and permissions]
+    P --> T[Tools or delegated work]
+    T --> H
+    H <--> S[Durable state and artifacts]
+    H --> V[Verify outcome]
+    V --> O[Answer or human handoff]
+    H -.-> E[Traces and evaluations]
+```
 
-- **IBM x Anthropic** — [Architecting Secure Enterprise AI Agents with MCP](https://www.ibm.com/downloads/documents/us-en/1443d5dd174f42e6)  
-  *Enterprise-focused blueprint for building secure AI agents using the Model Context Protocol (MCP).*
+## Core topics
 
-- **Google** — [AI Whitepaper: Agents](https://ppc.land/content/files/2025/01/Newwhitepaper_Agents2.pdf)  
-  *Google’s vision on agent capabilities and their role in next-generation AI systems.*
+1. [Architecture and orchestration](docs/architecture.md) — workflows, single agents, routing, parallel work, delegation, and verification.
+2. [Context, retrieval, and memory](docs/context-and-memory.md) — context budgets, agentic RAG, compaction, persistent memory, and provenance.
+3. [Tools, skills, and protocols](docs/tools-and-protocols.md) — tool contracts, MCP, A2A, Agent Skills, and interoperability boundaries.
+4. [Evaluation and benchmarks](docs/evaluation.md) — task success, repeated trials, trajectory analysis, graders, and benchmark selection.
+5. [Production, reliability, and safety](docs/production-and-safety.md) — durable execution, isolation, approvals, injection resistance, latency, and cost.
+6. [Interview preparation](docs/interview-preparation.md) — discussion topics, tradeoff questions, quantitative reasoning, and a self-assessment rubric.
+7. [Design case studies](docs/case-studies.md) — support, research, coding, and incident response agents.
 
-- **Antonio Gulli (Google)** - [Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview?ref=ppc.land&tab=t.0)
+## Foundational resources
 
-- **Databricks** 
-  - [Agent System Design Patterns](https://docs.databricks.com/aws/en/generative-ai/guide/agent-system-design-patterns): *Patterns for designing, orchestrating, and scaling agents in enterprise data/AI workflows.* 
-  - [The Big Book of GenAI](https://www.databricks.com/sites/default/files/2026-03/2026-03-eb-big-book-of-genai-ss-200225.pdf?itm_source=www&itm_category=resources&itm_page=thank-you&itm_location=body&itm_component=hero&itm_offer=2026-03-eb-big-book-of-genai-ss-200225.pdf): *5 ways to leverage your data to build production-quality GenAl applications.*
- 
+Introductory guides and research covering core system design concepts.
 
-- **OpenAI** 
-  — [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf?utm_source=chatgpt.com)  
-  *Hands-on playbook for constructing agent workflows, planning strategies, and evaluation.*
+| Resource | Topic |
+| --- | --- |
+| [Building effective agents — Anthropic](https://www.anthropic.com/engineering/building-effective-agents) | Workflows and agent design patterns. |
+| [Agents — Google / Kaggle](https://www.kaggle.com/whitepaper-agents) | Models, tools, and orchestration. |
+| [ReAct](https://arxiv.org/abs/2210.03629) | Interleaved reasoning and action. |
+| [Effective context engineering — Anthropic](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | Context selection and maintenance. |
+| [Demystifying evals for AI agents — Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | Agent evaluation methodology. |
+| [Towards a Science of AI Agent Reliability](https://arxiv.org/abs/2602.16666) | Consistency, robustness, predictability, and safety. |
 
-- **Anthropic** — [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)  
-  *Practical advice for developers on building effective agents*
+## Resource catalogs
 
-- **Vectorize** — [Designing Agentic AI Systems (Series)](https://vectorize.io/blog/designing-agentic-ai-systems-part-1-agent-architectures)  
-  *Multi-part blog series introducing agent architectures, design considerations, and real-world use cases.*
+- [Guides, books, and engineering reports](resources/guides.md)
+- [Research papers by design question](resources/papers.md)
+- [Frameworks, SDKs, platforms, and application examples](resources/frameworks.md)
+- [Benchmarks and evaluation references](docs/evaluation.md#benchmark-selection)
+- [Recent developments and migration notes](UPDATES.md)
 
-- **MongoDB** — [7 Practical Design Patterns for Agentic Systems](https://www.mongodb.com/resources/basics/artificial-intelligence/agentic-systems?utm_source=chatgpt.com)  
-  *Seven practical design patterns for agentic systems that have implemented in real-world use cases.*
+## Contributing
 
+Suggest resources that teach a design decision, provide reproducible evidence, or document a meaningful change. Include a primary source and a short explanation of its design relevance. See [the contribution guide](CONTRIBUTING.md) for selection criteria and the review process.
 
-### 📚 Research Papers
-
-#### Surveys & Architecture
-
-- [Agentic Large Language Models, a Survey](https://arxiv.org/abs/2503.23037)
-- [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](https://arxiv.org/abs/2503.21460)
-- [A Survey of Self-Evolving Agents](https://arxiv.org/pdf/2507.21046)
-- [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://arxiv.org/abs/2501.09136)
-- [Multi-Agent Collaboration Mechanisms: A Survey of LLMs](https://arxiv.org/abs/2501.06322)
-- [A Survey of Agent Interoperability Protocols: MCP, ACP, A2A, and ANP](https://arxiv.org/abs/2505.02279)
-- [Agentic AI Frameworks: Architectures, Protocols, and Design Challenges](https://arxiv.org/abs/2508.10146)
-- [Agentic Design Patterns: A System-Theoretic Framework](https://arxiv.org/abs/2601.19752)
-- [Architectures for Building Agentic AI](https://arxiv.org/abs/2512.09458)
-- [LLM Agents: A Survey](https://www.preprints.org/manuscript/202608.0265/v1)
-- [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738)
-
-#### Agent Design & Optimization
-
-- [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658)
-- [Weak-for-Strong: Training Weak Meta-Agent to Harness Strong Executors](https://arxiv.org/pdf/2504.04785)
-- [MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines](https://arxiv.org/abs/2507.22606)
-- [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762)
-- [FlowReasoner: Reinforcing Query-Level Meta-Agents](https://arxiv.org/abs/2504.15257)
-- [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](https://arxiv.org/pdf/2502.02533)
-- [Towards a Science of Scaling Agent Systems](https://arxiv.org/pdf/2512.08296)
-- [On the Role of Feedback in Test-Time Scaling of Agentic AI Workflows](https://arxiv.org/pdf/2504.01931)
-- [RewardHarness: Self-Evolving Agentic Post-Training](https://arxiv.org/abs/2605.08703)
-- [Budget-Aware Tool-Use Enables Effective Agent Scaling](https://arxiv.org/pdf/2511.17006)
-- [A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows](https://arxiv.org/abs/2512.08769)
-
-#### Agent Memory & Evaluation
-
-- [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110)
-- [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416)
-- [MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents](https://arxiv.org/abs/2503.01935)
-- [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878)
-- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
-
-#### Agent Safety & Interpretability
-
-- [Because we have LLMs, we Can and Should Pursue Agentic Interpretability](https://arxiv.org/pdf/2506.12152)
-- [AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?](https://arxiv.org/pdf/2509.03312)
-- [Toward a Safe Internet of Agents](https://arxiv.org/abs/2512.00520)
-- [Towards a Science of AI Agent Reliability](https://arxiv.org/abs/2602.16666)
-  
-  
-### 🤖 Agentic Frameworks
-
-- [Accenture AI Refinery SDK](https://sdk.airefinery.accenture.com/ai_refinery_101/)
-- [AG2: Open-Source AgentOS for AI Agents](https://github.com/ag2ai/ag2)
-- [Agent S: Use Computer Like a Human](https://github.com/ag2ai/ag2)
-- [AgentScope: Agent-Oriented Programming for Building LLM Applications](https://github.com/agentscope-ai/agentscope)
-- [Agno: Lightweight Multi-Modal Agent Runtime](https://github.com/agno-agi/agno)
-- [AutoGen: A framework for building AI agents and applications](https://microsoft.github.io/autogen/stable//index.html)
-- [Claude Agent SDK](https://docs.claude.com/en/api/agent-sdk/overview)
-- [CrewAI: Fast and Flexible Multi-Agent Automation Framework](https://github.com/crewAIInc/crewAI)
-- [Dify: Open-Source Platform for Agentic Workflow Development](https://github.com/langgenius/dify)
-- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python)
-- [LangGraph: Orchestration Framework for Stateful Agents](https://github.com/langchain-ai/langgraph)
-- [Mastra: TypeScript-First Agent Framework](https://github.com/mastra-ai/mastra)
-- [MetaGPT: The Multi-Agent Framework](https://github.com/FoundationAgents/MetaGPT)
-- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
-- [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/agents-sdk-overview?tabs=csharp)
-- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
-- [OpenAI Agent Builder](https://platform.openai.com/docs/guides/agent-builder)
-- [Pydantic AI: Type-Safe Agent Framework](https://github.com/pydantic/pydantic-ai)
-- [SmolAgents: Code-Centric Agent Framework by Hugging Face](https://github.com/huggingface/smolagents)
-- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
-- [Strands Agents: AWS Open-Source Agent SDK](https://github.com/strands-agents/sdk-python)
-- [YYLO: Command-Line Orchestrator for Coding Agents](https://github.com/yylo-dev/yylo)
-
-
-
-## 🤝 Contributing
-Have a resource, paper, or framework that belongs here?  
-Feel free to **open a PR** and help grow the ecosystem of **agentic system design**.
-
----
-
+This repository's original content is available under the [MIT license](LICENSE). Linked resources retain their respective licenses.
