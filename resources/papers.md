@@ -41,6 +41,7 @@ The catalog groups foundational work and later research by design question.
 | [Budget-Aware Tool Use Enables Effective Agent Scaling](https://arxiv.org/abs/2511.17006) | 2025 | Resource-constrained tool use |
 | [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296) | 2025 | Evaluating scaling and coordination tradeoffs |
 | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | 2026 | Evolving multi-agent systems for discovery tasks |
+| [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) | 2026 | A fresh-context reviewer that re-runs candidate results and can veto them, with parallel budget allocation |
 
 ## Context and harnesses: what should the runtime remember and control?
 
@@ -49,6 +50,7 @@ The catalog groups foundational work and later research by design question.
 | [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | 2025 | Linked, evolving memory organization |
 | [A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows](https://arxiv.org/abs/2512.08769) | 2025 | Production workflow design considerations |
 | [RewardHarness: Self-Evolving Agentic Post-Training](https://arxiv.org/abs/2605.08703) | 2026 | Evolving tools and skills for image-edit preference judgments; a specialized reward-modeling study |
+| [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177) | 2026 | Reusable prompt loops for long research runs; 18 roles in 230.6 KiB of prompts |
 | [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents — A Source-Code Study of Eleven Systems](https://arxiv.org/abs/2609.00006) | 2026 | Comparing runtime designs in a specific corpus of coding systems |
 | [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738) | 2026 | Control strategies, termination, recovery, skills, and harness design; preprint with an [author-hosted reading copy](https://github.com/js-lee-AI/awesome-agent-loop-papers/blob/main/paper/the-agent-loop-survey.pdf) |
 | [Harness Engineering for Software Engineering via Modular Executable Dev-Primitives](https://arxiv.org/abs/2610.07832) | 2026 | HERMES and component-level agent interfaces; new preprint submitted October 6 |
@@ -64,6 +66,7 @@ The catalog groups foundational work and later research by design question.
 | [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878) | 2026 | Information selection when instructing other agents |
 | [LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation](https://arxiv.org/abs/2608.00267) | 2026 | Dependencies and regression obligations during sustained development |
 | [SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents](https://arxiv.org/abs/2609.08149) | 2026 | Benchmark quality and verification in a separate SWE-Bench Pro line; do not conflate it with SWE-bench Verified |
+| [SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082) | 2026 | Research-direction judgment at decision points, taken from senior researchers' corrections of agents |
 
 See the [benchmark selection guide](../docs/evaluation.md#benchmark-selection) for project links and limitations.
 
