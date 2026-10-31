@@ -40,8 +40,10 @@ The catalog groups foundational work and later research by design question.
 | [On the Role of Feedback in Test-Time Scaling of Agentic AI Workflows](https://arxiv.org/abs/2504.01931) | 2025 | How feedback changes the value of extra inference |
 | [Budget-Aware Tool Use Enables Effective Agent Scaling](https://arxiv.org/abs/2511.17006) | 2025 | Resource-constrained tool use |
 | [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296) | 2025 | Evaluating scaling and coordination tradeoffs |
+| [OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](https://arxiv.org/abs/2504.16918) | 2025 | Formulator, planner, coder, and critic roles; UCB selects which candidate plan to pursue |
 | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | 2026 | Evolving multi-agent systems for discovery tasks |
 | [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) | 2026 | A fresh-context reviewer that re-runs candidate results and can veto them, with parallel budget allocation |
+| [AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876) | 2026 | A proposer and a reviewer search over research states with MCTS; each state keeps the probes, failed attempts, and review |
 
 ## Context and harnesses: what should the runtime remember and control?
 
