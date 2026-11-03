@@ -57,6 +57,7 @@ AG2 and Microsoft's AutoGen are separate projects. Do not apply one project's re
 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Role-based multi-agent software-development workflows |
 | [YYLO](https://github.com/yylo-dev/yylo) | Command-line coding-agent orchestration, isolated task workspaces, validation boundaries, and recorded repository changes |
 | [Darkmoon](https://github.com/ASCIT31/Dark-Moon) | A specialized security-testing application; assess scope controls and evidence handling in authorized environments |
+| [Ponder](https://github.com/Quinnod345/ponder) | Command-line review state machine and append-only JSONL ledger for coding agents, with disk-backed unit inventories, four-role deliberation, coverage gates, and convergence checks |
 
 ## Project status and migration
 
