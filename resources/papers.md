@@ -39,7 +39,7 @@ The catalog groups foundational work and later research by design question.
 | [MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines](https://arxiv.org/abs/2507.22606) | 2025 | Explicit state-machine structure in generated systems |
 | [On the Role of Feedback in Test-Time Scaling of Agentic AI Workflows](https://arxiv.org/abs/2504.01931) | 2025 | How feedback changes the value of extra inference |
 | [Budget-Aware Tool Use Enables Effective Agent Scaling](https://arxiv.org/abs/2511.17006) | 2025 | Resource-constrained tool use |
-| [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296) | 2025 | Evaluating scaling and coordination tradeoffs |
+| [Capable language models can outgrow the benefits of collaboration](https://www.nature.com/articles/s42256-026-01268-y) | 2025 (preprint); 2026 (Nature Machine Intelligence) | Evaluating when collaboration helps or hurts across model capabilities and task settings |
 | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | 2026 | Evolving multi-agent systems for discovery tasks |
 | [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) | 2026 | A fresh-context reviewer that re-runs candidate results and can veto them, with parallel budget allocation |
 
@@ -59,6 +59,7 @@ The catalog groups foundational work and later research by design question.
 
 | Paper | Year | Topic |
 | --- | --- | --- |
+| [Measuring AI Agents as Teammates with Collaborative Intelligence](https://arxiv.org/abs/2611.02633) | 2026 | Evaluating teamwork on tasks a model can solve alone, distinguishing collaboration from individual capability |
 | [GAIA: a benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983) | 2023 | General assistant evaluation involving reasoning and tools |
 | [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) | 2025 | Evaluation dimensions and methodology |
 | [MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents](https://arxiv.org/abs/2503.01935) | 2025 | Measuring behavior across interacting agents |
