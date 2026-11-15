@@ -49,6 +49,7 @@ AG2 and Microsoft's AutoGen are separate projects. Do not apply one project's re
 | [Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html) | Services for agent runtime, tools, memory, identity, and observability | Which services you need and their IAM, quota, and data boundaries |
 | [Google Cloud agent architecture components](https://docs.cloud.google.com/architecture/choose-agentic-ai-architecture-components) | A guide to runtime, state, and memory choices on Google Cloud | Managed services versus the components you operate |
 | [Scalekit AgentKit](https://docs.scalekit.com/agentkit/overview/) | Managed integration layer: per-user OAuth grants, a token vault outside the agent, 600+ connectors and 35,000+ tools callable from SDKs or any MCP client, with tool exposure scoped per agent role | Who holds user credentials, how tool scope is enforced outside the prompt, and what the hosted layer logs |
+| [AEGIS by 100monkeys.ai](https://github.com/100monkeys-ai/aegis-orchestrator) | Self-hosted orchestrator (AGPL-3.0, in beta) that owns agent lifecycle, workflow execution and policy enforcement, with manifest-declared network and filesystem policy and isolated runtimes | Docker-backed isolation in development, with Firecracker micro-VMs as the stated production direction; IAM and SEAL gateway auth are not enabled on every local path by default |
 
 ## Specialized systems and application examples
 
