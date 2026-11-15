@@ -40,8 +40,10 @@ The catalog groups foundational work and later research by design question.
 | [On the Role of Feedback in Test-Time Scaling of Agentic AI Workflows](https://arxiv.org/abs/2504.01931) | 2025 | How feedback changes the value of extra inference |
 | [Budget-Aware Tool Use Enables Effective Agent Scaling](https://arxiv.org/abs/2511.17006) | 2025 | Resource-constrained tool use |
 | [Capable language models can outgrow the benefits of collaboration](https://www.nature.com/articles/s42256-026-01268-y) | 2025 (preprint); 2026 (Nature Machine Intelligence) | Evaluating when collaboration helps or hurts across model capabilities and task settings |
+| [OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](https://arxiv.org/abs/2504.16918) | 2025 | Formulator, planner, coder, and critic roles; UCB selects which candidate plan to pursue |
 | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | 2026 | Evolving multi-agent systems for discovery tasks |
 | [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) | 2026 | A fresh-context reviewer that re-runs candidate results and can veto them, with parallel budget allocation |
+| [AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876) | 2026 | A proposer and a reviewer search over research states with MCTS; each state keeps the probes, failed attempts, and review |
 
 ## Context and harnesses: what should the runtime remember and control?
 
@@ -54,6 +56,7 @@ The catalog groups foundational work and later research by design question.
 | [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents — A Source-Code Study of Eleven Systems](https://arxiv.org/abs/2609.00006) | 2026 | Comparing runtime designs in a specific corpus of coding systems |
 | [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738) | 2026 | Control strategies, termination, recovery, skills, and harness design; preprint with an [author-hosted reading copy](https://github.com/js-lee-AI/awesome-agent-loop-papers/blob/main/paper/the-agent-loop-survey.pdf) |
 | [Harness Engineering for Software Engineering via Modular Executable Dev-Primitives](https://arxiv.org/abs/2610.07832) | 2026 | HERMES and component-level agent interfaces; new preprint submitted October 6 |
+| [Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction](https://arxiv.org/abs/2611.10439) | 2026 | MixUA and scoped memory writes, assigning each extracted lesson to a user-agent pair, user, agent, or global scope so lessons are shared without leaking private facts; preprint |
 
 ## Evaluation: what are we actually measuring?
 

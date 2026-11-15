@@ -66,6 +66,7 @@ These benchmarks cover complementary tasks and environments. Pin the version, sp
 | [MultiAgentBench](https://arxiv.org/abs/2503.01935) | Collaboration and competition | Its coordination environments may not match your workflow |
 | [PerspectiveGap](https://arxiv.org/abs/2606.08878) | Constructing multi-agent orchestration prompts | Pair this targeted capability probe with end-to-end application evaluation |
 | [LoopsBench](https://arxiv.org/abs/2608.00267) | Long-running development with dependencies and regression obligations | Evaluate loop behavior as well as final task resolution |
+| [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) | Discovering website behavior through browser exploration and rebuilding a full-stack application | Complete task artifacts follow the HF access process; pin the cohort, protocol and task version |
 
 ## Turn evaluation into a release decision
 
