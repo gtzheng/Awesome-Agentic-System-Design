@@ -30,6 +30,7 @@ Books, technical guides, specifications, and engineering reports grouped by subj
 
 | Resource | Coverage |
 | --- | --- |
+| [Agent Retry Rodeo - Rishabh Pande](https://github.com/RishabhPande/agent-retry-rodeo) | Synthetic Python recovery exercise: compare blind retries with persisted-state verification after lost acknowledgements and partial writes; scripted teaching baselines, not LLM measurements |
 | [Effective harnesses for long-running agents — Anthropic](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) | Maintaining progress across context windows |
 | [Harness design for long-running application development — Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) | Generator/evaluator arrangements and harness iteration |
 | [Scaling Managed Agents — Anthropic](https://www.anthropic.com/engineering/managed-agents) | Separating session storage, harness, and sandbox responsibilities |
