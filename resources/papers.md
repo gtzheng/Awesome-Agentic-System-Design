@@ -26,6 +26,7 @@ The catalog groups foundational work and later research by design question.
 | [Agentic AI Frameworks: Architectures, Protocols, and Design Challenges](https://arxiv.org/abs/2508.10146) | 2025 | Connections between framework design and protocol choices |
 | [Architectures for Building Agentic AI](https://arxiv.org/abs/2512.09458) | 2025 | Architectural organization of agent systems |
 | [Agentic Design Patterns: A System-Theoretic Framework](https://arxiv.org/abs/2601.19752) | 2026 | A systems perspective on agent design patterns |
+| [What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification](https://haizhaoyang.github.io/research/autoresearch-survey.html) | 2026 | A hand-coded comparison of 56 autonomous-research systems on seven axes, such as loop topology, verifier gate scope, and orchestration mode; project page |
 | [LLM Agents: A Survey](https://www.preprints.org/manuscript/202608.0265/v1) | 2026 | A component-based survey of planning, memory, tools, and coordination, with evaluation and safety coverage; preprint |
 
 ## Orchestration: which workflow and topology should we use?
@@ -41,6 +42,7 @@ The catalog groups foundational work and later research by design question.
 | [Budget-Aware Tool Use Enables Effective Agent Scaling](https://arxiv.org/abs/2511.17006) | 2025 | Resource-constrained tool use |
 | [Capable language models can outgrow the benefits of collaboration](https://www.nature.com/articles/s42256-026-01268-y) | 2025 (preprint); 2026 (Nature Machine Intelligence) | Evaluating when collaboration helps or hurts across model capabilities and task settings |
 | [OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](https://arxiv.org/abs/2504.16918) | 2025 | Formulator, planner, coder, and critic roles; UCB selects which candidate plan to pursue |
+| [AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/abs/2602.17607) | 2026 | Formulator, planner, coder, and critic agents build classical PDE solvers from a plain-language problem; a residual check triggers a fresh restart when a solver fails |
 | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | 2026 | Evolving multi-agent systems for discovery tasks |
 | [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) | 2026 | A fresh-context reviewer that re-runs candidate results and can veto them, with parallel budget allocation |
 | [AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876) | 2026 | A proposer and a reviewer search over research states with MCTS; each state keeps the probes, failed attempts, and review |
