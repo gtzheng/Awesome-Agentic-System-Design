@@ -34,6 +34,7 @@ Books, technical guides, specifications, and engineering reports grouped by subj
 | [Harness design for long-running application development — Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) | Generator/evaluator arrangements and harness iteration |
 | [Scaling Managed Agents — Anthropic](https://www.anthropic.com/engineering/managed-agents) | Separating session storage, harness, and sandbox responsibilities |
 | [Demystifying evals for AI agents — Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | Designing an evaluation program for an agent system |
+| [The resource settings behind 66 Terminal-Bench tasks — Sapien1](https://sapien1.com/research/terminal-bench-resource-settings) | Source-linked 4.1.0 task declarations and a filter for comparing task and verifier settings with resource ceilings |
 | [How we contain Claude across products — Anthropic](https://www.anthropic.com/engineering/how-we-contain-claude) | Containment boundaries and practical security failure modes |
 | [A Guide to Architecting Secure Enterprise AI Agents with MCP Servers — IBM, verified by Anthropic](https://www.ibm.com/downloads/documents/us-en/1443d5dd174f42e6) | Enterprise integration and security architecture; compare protocol details with the current specification |
 

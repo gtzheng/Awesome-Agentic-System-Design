@@ -68,6 +68,8 @@ These benchmarks cover complementary tasks and environments. Pin the version, sp
 | [LoopsBench](https://arxiv.org/abs/2608.00267) | Long-running development with dependencies and regression obligations | Evaluate loop behavior as well as final task resolution |
 | [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) | Discovering website behavior through browser exploration and rebuilding a full-stack application | Complete task artifacts follow the HF access process; pin the cohort, protocol and task version |
 
+Before running Terminal-Bench 4.1.0 with a uniform resource cap, compare task declarations and verifier settings with that cap using Sapien1’s [census and filter](https://sapien1.com/research/terminal-bench-resource-settings). When no verifier-environment block is declared, the filter copies the task settings; a match does not guarantee that a task will run. Record runner overrides and backend allocations separately when observable.
+
 ## Turn evaluation into a release decision
 
 Set thresholds before comparing candidates: required success by task category, prohibited effects, latency budget, and maximum cost. Track unknown or inconclusive results separately from accepted successes.
