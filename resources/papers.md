@@ -57,6 +57,7 @@ The catalog groups foundational work and later research by design question.
 | [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738) | 2026 | Control strategies, termination, recovery, skills, and harness design; preprint with an [author-hosted reading copy](https://github.com/js-lee-AI/awesome-agent-loop-papers/blob/main/paper/the-agent-loop-survey.pdf) |
 | [Harness Engineering for Software Engineering via Modular Executable Dev-Primitives](https://arxiv.org/abs/2610.07832) | 2026 | HERMES and component-level agent interfaces; new preprint submitted October 6 |
 | [Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction](https://arxiv.org/abs/2611.10439) | 2026 | MixUA and scoped memory writes, assigning each extracted lesson to a user-agent pair, user, agent, or global scope so lessons are shared without leaking private facts; preprint |
+| [Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime](https://www.preprints.org/manuscript/202603.1756/v2) | 2026 | Control/Agency/Runtime decomposition of the harness layer, audit of 63 harness-relevant works, and a HarnessCard reporting artifact; preprint (v2) |
 
 ## Evaluation: what are we actually measuring?
 
